@@ -3,21 +3,25 @@
     margin: 0;
     border: 0;
 }
-
+/* FONTS */
 @font-face {
-    font-family: 'Montserrat';
-    /* Font family name */
-    src: url('font/Montserrat-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
+    font-family: 'Poppins-Regular';
+    src: url('font/Poppins-Regular.ttf');
     line-height: 120%;
 }
-
 @font-face {
-    font-family: 'Montserrat-bold';
-    /* Font family name */
-    src: url('font/Montserrat-Bold.ttf');
-    font-weight: 700;
+    font-family: 'Poppins-Bold';
+    src: url('font/Poppins-Bold.ttf');
+    line-height: 120%;
+}
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('font/Lato-Bold.ttf');
+    line-height: 120%;
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('font/Lato-Regular.ttf');
     line-height: 120%;
 }
 
@@ -26,3 +30,8 @@ body {
     color: var(--navy, #172B54);
     font-size: 1.1em;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
