@@ -363,7 +363,7 @@
   .plant-card img {
     object-fit: contain;
   }
-  .card-level1 {
+  .card-layout {
     display: flex;
     width: 17em;
     height: auto;
@@ -376,6 +376,10 @@
     border-radius: 1.25em;
     background: rgba(255, 200, 146, 0.4);
   }
+  .card-level2 {
+    background: var(--light-orange);
+  }
+
   .fake-btn-able {
     display: flex;
     height: 3.5em;
