@@ -403,4 +403,34 @@
     background: var(--orange);
     box-shadow: 0em 0.25em 0.25em 0em rgba(0, 0, 0, 0.2);
   }
+
+  /* FOOTER */
+  footer {
+    display: flex;
+    padding: 2em 1em;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5em;
+    flex-shrink: 0;
+
+    background: var(--dark-green);
+  }
+  footer a {
+    color: var(--bright-yellow);
+    list-style-type: none;
+    text-decoration: none;
+  }
+  footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    align-self: stretch;
+    list-style-type: none;
+  }
+  footer p {
+    color: var(--bright-yellow);
+    font-size: 0.5em;
+  }
 }
