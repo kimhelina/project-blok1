@@ -340,6 +340,12 @@
   }
 
   /* LEVELS */
+  .level {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3em;
+  }
   .level-title {
     display: flex;
     flex-direction: row;
@@ -348,7 +354,7 @@
   }
   .plant-card {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
   .plant-card h3 {
@@ -378,6 +384,9 @@
   }
   .card-level2 {
     background: var(--light-orange);
+  }
+  .card-level3 {
+    background: #ffba76;
   }
 
   .fake-btn-able {
