@@ -57,6 +57,9 @@
     background-color: var(--bright-yellow);
     padding: 1em;
   }
+  body:not(footer) {
+    padding: 0; /* Reset the padding to 0 for all elements inside the body except the footer */
+  }
   body h1 {
     font-family: "Poppins-Bold";
     font-size: 3em;
