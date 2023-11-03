@@ -364,7 +364,6 @@
 
   .plant-card {
     display: flex;
-    align-items: flex-start;
     justify-content: center;
   }
   .plant-card h3 {
@@ -375,9 +374,17 @@
   }
   .plant-card .description {
     gap: 1em;
+    justify-content: flex-start;
   }
   .plant-card img {
     object-fit: contain;
+  }
+
+  .plant-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2em;
   }
 
   /* Plant card */
@@ -400,6 +407,7 @@
   .card-level3 {
     background: #ffba76;
   }
+
   /* button for plant card */
   .fake-btn-able {
     display: flex;
