@@ -343,14 +343,11 @@
   }
 
   /* LEVELS */
-  /* .level {
+  .level {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
     gap: 3em;
-    padding: 3em, 0em, 3em, 0em;
-  } */
+  }
   .level-title {
     display: flex;
     flex-direction: row;
