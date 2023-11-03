@@ -53,13 +53,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: var(--bright-yellow);
-    padding: 1em;
-  }
-  /* body:not(footer) {
-    padding: 0; 
-  } */
   body h1 {
     font-family: "Poppins-Bold";
     font-size: 3em;
@@ -76,6 +69,11 @@
     font-family: "Lato-Regular";
     font-size: 1em;
     color: var(--font-color);
+  }
+  main,
+  header {
+    background-color: var(--bright-yellow);
+    padding: 1em;
   }
 
   /* NAVIGATION */
