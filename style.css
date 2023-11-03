@@ -57,9 +57,9 @@
     background-color: var(--bright-yellow);
     padding: 1em;
   }
-  body:not(footer) {
-    padding: 0; /* Reset the padding to 0 for all elements inside the body except the footer */
-  }
+  /* body:not(footer) {
+    padding: 0; 
+  } */
   body h1 {
     font-family: "Poppins-Bold";
     font-size: 3em;
@@ -343,18 +343,21 @@
   }
 
   /* LEVELS */
-  .level {
+  /* .level {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     gap: 3em;
-  }
+    padding: 3em, 0em, 3em, 0em;
+  } */
   .level-title {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1em;
   }
+
   .plant-card {
     display: flex;
     align-items: flex-start;
@@ -372,6 +375,8 @@
   .plant-card img {
     object-fit: contain;
   }
+
+  /* Plant card */
   .card-layout {
     display: flex;
     width: 17em;
@@ -391,7 +396,7 @@
   .card-level3 {
     background: #ffba76;
   }
-
+  /* button for plant card */
   .fake-btn-able {
     display: flex;
     height: 3.5em;
