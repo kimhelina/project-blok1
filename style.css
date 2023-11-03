@@ -314,6 +314,13 @@
     color: #fff;
   }
 
+  /* Layout content planten */
+  .content-plant {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.25em;
+  }
   /* PLANT PAGE */
   #legenda {
     display: flex;
