@@ -249,9 +249,14 @@
 
   /* TEMPLATE */
   .banner-index {
+    position: relative;
+    top: -2.5em;
+    left: -1em;
+    margin-right: -2em;
+
     display: flex;
     height: auto;
-    padding: 2.5em 0em 2.5em 0em;
+    padding: 2.5em 1em 2.5em 1em;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -261,9 +266,23 @@
     background: rgba(33, 112, 78, 0.4);
   }
   #first-banner {
+    position: relative;
   }
-  #first-banner h1 {
-    text-transform: uppercase;
+  #first-banner::before {
+    z-index: 0;
+    content: "";
+    position: absolute;
+    width: 32em;
+    height: 32em;
+    border-radius: 50em;
+    background-color: var(--dark-green);
+    top: -10em;
+    left: -10em;
+  }
+  #first-banner h1,
+  p {
+    color: #fff;
+    z-index: 1;
   }
 
   /* WAT TE DOEN */
