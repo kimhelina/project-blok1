@@ -285,6 +285,33 @@
     z-index: 1;
   }
 
+  /* INDEX */
+  .intro-what-to-do {
+    display: flex;
+    padding: 2em 0em;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+  /* INTRO CARD */
+  .img-minititle {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  .layout-wtd-card {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 1em;
+    padding: 1em;
+
+    border-radius: 1.2em;
+    background: var(--light-orange);
+  }
+
   /* WAT TE DOEN */
   #what-to-do {
     display: flex;
