@@ -312,6 +312,19 @@
     background: var(--light-orange);
   }
 
+  .fake-btn-to-wtd {
+    display: flex;
+    padding: 1em 2em;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--bright-yellow);
+
+    border-radius: 1.25em;
+    background: var(--dark-green);
+    box-shadow: 0em 0.25em 0.25em 0em rgba(0, 0, 0, 0.2);
+  }
+
   /* WAT TE DOEN */
   #what-to-do {
     display: flex;
