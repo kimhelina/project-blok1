@@ -54,7 +54,7 @@
 
 @media only screen and (max-width: 600px) {
   body h1 {
-    font-family: "Poppins-Bold";
+    font-family: "Poppins-SemiBold";
     font-size: 3em;
   }
   body h2 {
@@ -281,6 +281,7 @@
   }
   #first-banner h1,
   p {
+    position: relative;
     color: #fff;
     z-index: 1;
   }
