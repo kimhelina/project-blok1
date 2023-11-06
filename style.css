@@ -281,8 +281,8 @@
     z-index: -1;
     content: "";
     position: absolute;
-    width: 38em;
-    height: 38em;
+    width: 112vw;
+    height: 74vh;
     border-radius: 50em;
     background-color: var(--dark-green);
     top: -16em;
