@@ -286,6 +286,22 @@
   }
 
   /* INDEX */
+  .tomato-hello {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: -em;
+    flex-shrink: 0;
+  }
+  .tomato-hello img {
+    position: relative;
+    right: 0;
+  }
+  .tomato-hello p {
+    font-size: 2em;
+  }
+
   .intro-what-to-do {
     display: flex;
     padding: 2em 0em;
