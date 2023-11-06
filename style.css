@@ -70,14 +70,21 @@
     font-size: 1em;
     color: var(--font-color);
   }
-  main,
-  header {
-    background-color: var(--bright-yellow);
+  main {
     padding: 1em;
+  }
+  #background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-color: var(--bright-yellow);
   }
 
   /* NAVIGATION */
   #nav {
+    width: 100vw;
+    padding: 1em;
     display: flex;
     height: 4em;
     justify-content: space-between;
@@ -217,6 +224,8 @@
   #plant-friends {
     display: flex;
     height: auto;
+    margin-bottom: 3em;
+    margin-top: 3em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -250,7 +259,7 @@
   /* TEMPLATE */
   .banner-index {
     position: relative;
-    top: -2.5em;
+    top: -0.5em;
     left: -1em;
     margin-right: -2em;
 
@@ -269,21 +278,22 @@
     position: relative;
   }
   #first-banner::before {
-    z-index: 0;
+    z-index: -1;
     content: "";
     position: absolute;
-    width: 32em;
-    height: 32em;
+    width: 38em;
+    height: 38em;
     border-radius: 50em;
     background-color: var(--dark-green);
-    top: -10em;
+    top: -16em;
     left: -10em;
   }
   #first-banner h1,
-  p {
+  #first-banner p {
+    width: 70vw;
+    margin-top: 1em;
     position: relative;
     color: #fff;
-    z-index: 1;
   }
 
   /* INDEX */
@@ -305,6 +315,7 @@
 
   .intro-what-to-do {
     display: flex;
+    margin-bottom: 3em;
     padding: 2em 0em;
     flex-direction: column;
     align-items: center;
@@ -345,6 +356,8 @@
   /* WAT TE DOEN */
   #what-to-do {
     display: flex;
+    margin-top: 6em;
+    margin-bottom: 3em;
     padding: 3em 1em;
     flex-direction: column;
     align-items: center;
@@ -409,6 +422,7 @@
   /* PLANT PAGE */
   #legenda {
     display: flex;
+    margin-top: 13em;
     height: 8.75em;
     gap: 0.75em;
     flex-direction: column;
