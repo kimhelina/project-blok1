@@ -274,10 +274,10 @@
     border-radius: 0em 0em 1.5em 1.5em;
     background: rgba(33, 112, 78, 0.4);
   }
-  #first-banner {
+  .first-banner {
     position: relative;
   }
-  #first-banner::before {
+  .first-banner::before {
     z-index: -1;
     content: "";
     position: absolute;
@@ -288,18 +288,22 @@
     top: -16em;
     left: -10em;
   }
-  #first-banner h1,
-  #first-banner p {
+
+  .first-banner h1,
+  .first-banner p {
     width: 70vw;
     margin-top: 1em;
     position: relative;
     color: #fff;
   }
-  #first-banner img {
+  .first-banner img {
     width: 15vw;
     margin-top: 2em;
     margin-left: 4em;
   }
+  /* .light-green {
+    background-color: #21704e;
+  } */
 
   /* INDEX */
   .tomato-hello {
@@ -535,7 +539,12 @@
   }
 
   /* PLANT INFO PAGE */
+  .orange-banner {
+    justify-content: center;
+    align-items: center;
+  }
   .info-plant {
+    justify-content: center;
     display: inline-flex;
     align-items: center;
     gap: 17px;
@@ -553,6 +562,12 @@
   .detail-plant h2 {
     font-family: "Lato-Bold";
     font-size: 1em;
+  }
+  #letter-plant {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: var(--dark-green);
   }
 
   /* FOOTER */
