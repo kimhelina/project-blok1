@@ -339,6 +339,11 @@
     border-radius: 1.2em;
     background: var(--light-orange);
   }
+  .layout-wtd-card p {
+    font-family: "Poppins-Regular";
+    color: var(--dark-green);
+    font-size: 1.2em;
+  }
 
   .fake-btn-to-wtd {
     display: flex;
