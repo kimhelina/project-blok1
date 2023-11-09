@@ -286,25 +286,27 @@
     height: 74vh;
     border-radius: 50em;
     background-color: var(--dark-green);
-    top: -16em;
-    left: -10em;
+    top: -12em;
+    left: -8em;
   }
 
   .first-banner h1,
   .first-banner p {
-    width: 70vw;
+    width: 60vw;
     margin-top: 1em;
     position: relative;
     color: #fff;
   }
-  .first-banner img {
-    width: 15vw;
-    margin-top: 2em;
-    margin-left: 4em;
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
   }
-  /* .light-green {
-    background-color: #21704e;
-  } */
+  .title img {
+    width: 3.2em;
+    height: 3.2em;
+  }
 
   /* INDEX */
   .tomato-hello {
@@ -437,7 +439,7 @@
   /* PLANT PAGE */
   #legenda {
     display: flex;
-    margin-top: 3em;
+    margin-top: 4em;
     margin-bottom: 2em;
     height: 8.75em;
     gap: 0.75em;
