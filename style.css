@@ -80,6 +80,9 @@
     z-index: -1;
     background-color: var(--bright-yellow);
   }
+  a {
+    text-decoration: none;
+  }
 
   /* NAVIGATION */
   #nav {
@@ -216,7 +219,6 @@
 
   .menu-wrap .menu > div > div > ul > li > a {
     color: inherit;
-    text-decoration: none;
     transition: color 0.4s ease;
   }
 
@@ -252,7 +254,6 @@
     background: #21704e;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
 
-    text-decoration: none;
     color: var(--bright-yellow);
   }
 
@@ -436,7 +437,8 @@
   /* PLANT PAGE */
   #legenda {
     display: flex;
-    margin-top: 5em;
+    margin-top: 3em;
+    margin-bottom: 2em;
     height: 8.75em;
     gap: 0.75em;
     flex-direction: column;
@@ -530,7 +532,6 @@
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    text-decoration: none;
     color: var(--dark-green);
 
     border-radius: 1.25em;
@@ -597,7 +598,6 @@
   footer a {
     color: var(--bright-yellow);
     list-style-type: none;
-    text-decoration: none;
   }
   footer ul {
     display: flex;
